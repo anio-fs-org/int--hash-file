@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@anio-js-foundation/bundle-package": "^4.0.0",
-    "@anio-js-foundation/node-fs-read-file-in-chunks": "^0.1.0"
+    "@anio-node-foundation/fs-read-file-in-chunks": "^1.0.0"
   },
   "scripts": {
     "prepare": "./node_modules/.bin/bundle-package ."

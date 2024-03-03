@@ -1,5 +1,5 @@
 import {createHash} from "node:crypto"
-import nodeFsReadFileInChunks from "@anio-js-foundation/node-fs-read-file-in-chunks"
+import nodeFsReadFileInChunks from "@anio-node-foundation/fs-read-file-in-chunks"
 
 export default function(file_path, algo, hash_encoding = "hex") {
 	const hash = createHash(algo)
