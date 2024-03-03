@@ -1,5 +1,5 @@
 {
-  "name": "@anio-js-foundation/node-fs-hash-file",
+  "name": "@anio-node-foundation/fs-hash-file",
   "version": "1.0.0",
   "description": "Calculate the checksum of a file.",
   "main": "./dist/package.mjs",
@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anio-js-foundation/node-fs-hash-file.git"
+    "url": "git+https://github.com/anio-node-foundation/fs-hash-file.git"
   },
   "devDependencies": {
     "@anio-js-foundation/bundle-package": "^4.0.0",
