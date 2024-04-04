@@ -1,5 +1,5 @@
 import {createHash} from "node:crypto"
-import nodeFsReadFileInChunks from "@anio-node-foundation/fs-read-file-in-chunks"
+import {readFileInChunks} from "@anio-fs/int--read-file-in-chunks"
 
 export default async function(file_path, algo, hash_encoding = "hex") {
 	const hash = createHash(algo)
@@ -7,7 +7,7 @@ export default async function(file_path, algo, hash_encoding = "hex") {
 	//
 	// read file in 4096 byte chunks
 	//
-	const file = await nodeFsReadFileInChunks(file_path, 4096)
+	const file = await readFileInChunks(file_path, 4096)
 
 	while (true) {
 		const chunk = await file.readNextChunk()
