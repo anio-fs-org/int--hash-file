@@ -1,9 +1,9 @@
-# @anio-node-foundation/fs-hash-file
+# @anio-fs/int--hash-file
 
 Synchronously calculate the checksum of a file.
 
 ```js
-import {hashFile, hashFileSync} from "@anio-node-foundation/fs-hash-file"
+import {hashFile, hashFileSync} from "@anio-fs/int--hash-file"
 
 console.log(
 	await hashFile("./examples/example.mjs", "sha256")
