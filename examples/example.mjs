@@ -1,9 +1,9 @@
-import nodeFsHashFile from "../src/index.mjs"
+import {hashFile, hashFileSync} from "../src/index.mjs"
 
 console.log(
-	await nodeFsHashFile("./examples/example.mjs", "sha256")
+	await hashFile("./examples/example.mjs", "sha256")
 )
 
 console.log(
-	nodeFsHashFile.sync("./examples/example.mjs", "sha1", "base64")
+	hashFileSync("./examples/example.mjs", "sha1", "base64")
 )

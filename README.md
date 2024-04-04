@@ -3,13 +3,13 @@
 Synchronously calculate the checksum of a file.
 
 ```js
-import nodeFsHashFile from "@anio-node-foundation/fs-hash-file"
+import {hashFile, hashFileSync} from "@anio-node-foundation/fs-hash-file"
 
 console.log(
-	await nodeFsHashFile("./examples/example.mjs", "sha256")
+	await hashFile("./examples/example.mjs", "sha256")
 )
 
 console.log(
-	nodeFsHashFile.sync("./examples/example.mjs", "sha1", "base64")
+	hashFileSync("./examples/example.mjs", "sha1", "base64")
 )
 ```
