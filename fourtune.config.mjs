@@ -1,4 +1,4 @@
-import {generateFromTemplate} from "vipen/autogenerate"
+import {generateFromTemplate} from "fourtune/autogenerate"
 
 const asyncToSync = {
 	"import {readFileInChunks} from \"@anio-fs/int--read-file-in-chunks\"": "import {readFileInChunksSync} from \"@anio-fs/int--read-file-in-chunks\"",
