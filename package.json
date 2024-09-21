@@ -11,7 +11,7 @@
     "url": "git+https://github.com/anio-fs-org/int--hash-file.git"
   },
   "devDependencies": {
-    "@anio-fs/int--read-file-in-chunks": "^3.0.2",
+    "@anio-fs/int--read-file-in-chunks": "^4.0.0",
     "@vipen/target-js": "^0.17.0",
     "vipen": "^0.2.1"
   },
