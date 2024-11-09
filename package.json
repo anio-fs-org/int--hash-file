@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@anio-fs/int--read-file-in-chunks": "^4.0.0",
+    "@fourtune/core": "^0.100.0",
     "@fourtune/realm-js": "^0.1.0",
     "fourtune": "^0.0.1"
   },
