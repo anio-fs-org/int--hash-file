@@ -1,7 +1,7 @@
-import {hashFile, hashFileSync} from "../src/index.mjs"
+import {hashFile, hashFileSync} from "../dist/default/index.mjs"
 
 console.log(
-	await hashFile("./examples/example.mjs", "sha256")
+	await hashFile("./examples/example.mjs", "sha256", "hex")
 )
 
 console.log(
