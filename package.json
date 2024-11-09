@@ -1,5 +1,6 @@
 {
   "name": "@anio-fs/int--hash-file",
+  "type": "module",
   "version": "5.0.0",
   "description": "Calculate the checksum of a file.",
   "main": "./dist/package.min.mjs",
