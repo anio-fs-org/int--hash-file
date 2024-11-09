@@ -13,8 +13,8 @@
   "devDependencies": {
     "@anio-fs/int--read-file-in-chunks": "^4.0.0",
     "@fourtune/core": "^0.100.0",
-    "@fourtune/realm-js": "^0.1.0",
-    "fourtune": "^0.0.1"
+    "@fourtune/realm-js": "^0.800.0-alpha.2",
+    "fourtune": "^0.600.0"
   },
   "scripts": {
     "prepare": "./node_modules/.bin/fourtune ."
