@@ -20,6 +20,10 @@ export default async function(
 ) : ReturnType<ImplementationDocType> {
 	const hash = createHash(algo)
 
+	context.log.trace(
+		`requested hash of file '${file_path}' with algo '${algo}'`
+	)
+
 	//
 	// read file in 4096 byte chunks
 	//
